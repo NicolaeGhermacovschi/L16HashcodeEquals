@@ -25,8 +25,15 @@ public class App {
 				
 			}
 		}
+    	System.out.println("Equals person");
+    	for (Person person : persons) {
+    		for (Person person2 : persons) {
+				if (person.equals(person2)) {
+					System.out.println(person.toString());
+				}
+			}
+		}
     	
-
        
     }
 
